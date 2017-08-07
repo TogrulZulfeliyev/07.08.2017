@@ -1,0 +1,193 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.row {
+    margin-top: 35px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.col-1 {
+    float: left;
+    width: 8.33%;
+}
+.col-2 {
+    float: left;
+    width: 16.66%;
+}
+.col-3 {
+    float: left;
+    width: 24.99%;
+}
+.col-4 {
+    float: left;
+    width: 33.33%;
+}
+.col-5 {
+    float: left;
+    width: 41.66%;
+}
+.col-6 {
+    float: left;
+    width: 49.99%;
+}
+.col-7 {
+    float: left;
+    width: 58.33%;
+}
+.col-8 {
+    float: left;
+    width: 66.66%;
+}
+.col-9 {
+    float: left;
+    width: 74.99%;
+}
+.col-10 {
+    float: left;
+    width: 83.33%;
+}
+.col-11 {
+    float: left;
+    width: 91.66%;
+}
+.col-12 {
+    float: left;
+    width: 100%;
+}
+
+.services .item {
+    text-align: center;
+    padding: 70px 0 30px;
+    position: relative;
+}
+
+.services .item i {
+    font-size: 60px;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.services .item span {
+    left: 75px;
+    top: 80px;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    background: #744588;
+}
+
+.services .item i::after {
+    content: '';
+    background: grey;
+    height: 1px;
+    width: 70px;
+    display: block;
+    position: absolute;
+    top: 170px;
+    left: -25%;
+    transform: rotate(-26deg);
+}
+
+ 
+
+.services .item h1 {
+    font-size: 30px;
+    color: #744588;
+    margin-top: 12px;
+}
+
+.services .item h2 {
+    font-size: 30px;
+    color: black;
+    margin-top: 12px;
+}
+
+.services .item p {
+    color: grey;
+    margin-top: 12px;
+}
+
+.services .item2 {
+    height: 500px;
+    text-align: center;
+}
+
+.services .item2 h1 {
+    color: grey;
+    font-size: 30px;
+    padding: 3% 18%;
+    margin-top: 150px;
+}
+
+.services .item2 p {
+    color: grey;
+    font-size: 20px;
+    padding: 3% 18%;
+
+}
+
+.services .item2 img {
+    width: 100%;
+    height: 100%;
+}
